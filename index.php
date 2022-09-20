@@ -23,6 +23,7 @@
                 <tr><th>Squat</th><td></td><td></td><td></td></tr>
                 <tr><th>Deadlift</th><td></td><td></td><td></td></tr>
             </table>
+        <Div id="centre_box">    
         <form action=# method=#>
             <p>New Lift: <br />
             Bench Press<input type="radio" name="new_lift_type" value="bench_press" checked="checked" />
@@ -36,6 +37,6 @@
         <footer>
             <?=date('d/m/y') ?>
         </footer>
-        <script src="" async defer></script>
+        <script src="script.JS" async defer></script>
     </body>
 </html>
