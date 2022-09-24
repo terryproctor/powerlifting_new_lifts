@@ -33,10 +33,14 @@
             <p> Weight (kg): <input type="number" name="new_lift_weight" step="0.5" min="0" value="20">
             <p> Reps: <input type="number" name="new_lift_reps" step="1" min="1" value="1"><br />
             <input type="submit" value="Submit" />
-        </form>    
+
+        </form>
+        <?php $host="localhost"; $user="root"; $password=""; $con= new mysqli($host, $user, $password);?>
+        
         <footer>
-            <?=date('d/m/y') ?>
+            <p>Test</p>
+            
         </footer>
-        <script src="script.JS" async defer></script>
+         
     </body>
 </html>
