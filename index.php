@@ -24,7 +24,7 @@
                 <tr><th>Deadlift</th><td></td><td></td><td></td></tr>
             </table>
         <Div id="centre_box">    
-        <form action=# method=#>
+        <form action="new_lift.php" method="POST">
             <p>New Lift: <br />
             Bench Press<input type="radio" name="new_lift_type" value="bench_press" checked="checked" />
             Squat<input type="radio" name="new_lift_type" value="squat" />
@@ -37,8 +37,9 @@
         </form>
         <?php $host="localhost"; $user="root"; $password=""; $con= new mysqli($host, $user, $password);?>
         
+
         <footer>
-            <p>Test</p>
+            <p> </p>
             
         </footer>
          
