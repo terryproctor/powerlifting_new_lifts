@@ -10,12 +10,13 @@ $new_one_rep_max = $new_weight * (1 + ($new_reps/30));
       $password="";
       $database="lift"; 
       
+      
       $conn= new mysqli($host, $user, $password, $database);
 
-      echo $new_lift, $new_weight, $new_reps;
+    //   echo $new_lift, $new_weight, $new_reps;
 
-$sql = "INSERT INTO lifts(weight, reps) 
-        VALUES ($new_weight, $new_reps) 
+$sql = "INSERT INTO lifts(lift_type, weight, reps, one_rep_max) 
+        VALUES ('$new_lift', '$new_weight', '$new_reps', '$new_one_rep_max') 
             ;"
         ;
 
